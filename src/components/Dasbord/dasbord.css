@@ -1,0 +1,226 @@
+   .Dasbord-c {
+       padding: 80px 0;
+
+   }
+
+   .background-color {
+       /* background-color: #35093c; */
+       background-color: rgb(16, 7, 36);
+   }
+
+   .content {
+
+       /* background-color: #35093c; */
+       background-color: transparent;
+       color: white;
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       text-align: start;
+
+   }
+
+   .content h1 {
+       font-size: 50px;
+       font-weight: 700;
+       margin-top: 10px;
+   }
+
+   .content p {
+       font-size: 20px;
+       font-weight: 400;
+       margin-top: 30px;
+       color: white;
+   }
+
+   .content span {
+       font-size: 20px;
+       font-weight: 400;
+       margin-bottom: 40px;
+       color: #c36;
+   }
+
+   .iner-box {
+       width: 100%;
+       display: flex;
+       margin-top: 20px;
+       /* background-color: #8a3397; */
+       background-color: rgb(69, 48, 114);
+       border-radius: 10px;
+       font-family: sans-serif;
+   }
+
+   .iner-box-text {
+
+       font-size: 30px;
+       padding: 20px;
+       margin-top: 0;
+   }
+
+   .iner-box-text h6 {
+       font-size: 30px;
+       font-weight: 700;
+
+   }
+
+   .iner-box-text p {
+       font-size: 30px;
+       font-weight: 700;
+
+   }
+
+   .icon {
+
+       font-size: 50px;
+       color: white;
+       text-align: center;
+
+
+
+   }
+
+   .iner-icon {
+       color: white;
+       margin-top: 30px;
+       margin-left: 20px;
+       border-radius: 100%;
+       padding: 7px;
+       background-color: #c36;
+       text-align: center;
+       border: 1px dotted white;
+       border-radius: 100%;
+
+
+
+   }
+
+   .iner-icon:hover {
+       background-color: #35093c;
+   }
+
+
+   .bg {
+       /* background-color: #8a3397; */
+       background-color: rgb(69, 48, 114);
+       width: 70%;
+       padding-bottom: 5px;
+       padding-left: 5px;
+       border-bottom: 1px solid #c36;
+       border-left: 1px solid #c36;
+       height: 67%;
+       margin-top: 100px;
+
+
+   }
+
+   .slide2 {
+       position: relative;
+       bottom: 100px;
+       left: 50px;
+   }
+
+   .img-size {
+       max-width: 100%;
+       height: 100%;
+   }
+
+
+   .c-button {
+       color: #000;
+       font-weight: 700;
+       font-size: 16px;
+       text-decoration: none;
+       padding: 0.9em 1.6em;
+       cursor: pointer;
+       display: inline-block;
+       vertical-align: middle;
+       position: relative;
+       z-index: 1;
+   }
+
+   .c-button--gooey {
+       color: rgb(69, 48, 114);
+       
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       border: 4px solid rgb(69, 48, 114);
+       border-radius: 0;
+       position: relative;
+       transition: all 700ms ease;
+   }
+
+   .c-button--gooey .c-button__blobs {
+       height: 100%;
+       filter: url(#goo);
+       overflow: hidden;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: -3px;
+       right: -1px;
+       z-index: -1;
+   }
+
+   .c-button--gooey .c-button__blobs div {
+       background-color: rgb(69, 48, 114);
+       width: 34%;
+       height: 100%;
+       border-radius: 100%;
+       position: absolute;
+       transform: scale(1.4) translateY(125%) translateZ(0);
+       transition: all 700ms ease;
+   }
+
+   .c-button--gooey .c-button__blobs div:nth-child(1) {
+       left: -5%;
+   }
+
+   .c-button--gooey .c-button__blobs div:nth-child(2) {
+       left: 30%;
+       transition-delay: 60ms;
+   }
+
+   .c-button--gooey .c-button__blobs div:nth-child(3) {
+       left: 66%;
+       transition-delay: 25ms;
+   }
+
+   .c-button--gooey:hover {
+       color: #fff;
+   }
+
+   .c-button--gooey:hover .c-button__blobs div {
+       transform: scale(1.4) translateY(0) translateZ(0);
+   }
+
+   
+
+
+
+
+   @media only screen and (max-width: 420px) {
+       .content {
+           font-size: 20px;
+           text-align: center;
+       }
+
+       .carousel-item {
+           height: 100%;
+       }
+
+       .content span {
+           font-size: 20px;
+       }
+
+       .content h1 {
+           font-size: 35px;
+       }
+
+       .content p {
+           font-size: 20px;
+       }
+
+       .iner-box-text h6 {
+           font-size: 20px;
+       }
+
+   }

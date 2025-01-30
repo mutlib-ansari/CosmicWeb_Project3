@@ -1,0 +1,123 @@
+.testimonial {
+    text-align: center;
+
+}
+
+.testimonial-content {
+
+    justify-items: center;
+}
+
+.testimonial-text {
+    text-align: center;
+    font-size: 18px;
+
+    color: white;
+
+}
+
+.images {
+    text-align: center;
+    justify-content: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+}
+
+.testimonial-top span {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #c36;
+
+
+}
+
+.testimonial-top h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.testimonial-author {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+}
+
+.bookingtext {
+    padding: 70px 0px;
+}
+
+.bookingtext h1 {
+    font-size: 50px;
+    text-align: start;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.bookingtext p {
+    font-size: 20px;
+    text-align: start;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.imgee {
+    width: 100%;
+    padding-top: 40%;
+}
+
+@media only screen and (max-width: 420px) {
+    .testimonial-text {
+        text-align: center;
+        font-size: 20px;
+        padding: 0px;
+        color: white;
+
+    }
+
+    .testimonial-top span {
+        font-size: 15px;
+    }
+
+    .testimonial-top h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-content p {
+        font-size: 20px;
+    }
+
+    .testimonial-author {
+        font-size: 25px;
+    }
+
+    /* .bottom-img img {
+        max-width: 50%;
+        height: 50px;
+        
+    } */
+  
+
+    .bottom-img {
+
+        text-align: center;
+
+    }
+
+    .bookingtext h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .bookingtext p {
+        font-size: 20px;
+        text-align: center;
+    }
+}

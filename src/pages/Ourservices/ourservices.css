@@ -1,0 +1,95 @@
+.background-color-service{
+    /* background-color: #6b3c6a; */
+    background-color: rgb(69, 48, 114);
+    padding: 50px 0;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+
+
+
+.our-ser span {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #c36;
+
+
+}
+
+.our-ser h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+
+.our-ser p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+}
+
+.img {
+    width: 20%;
+    height: 40%;
+    
+}
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.bouncing:hover {
+    animation: bounce 1s infinite;
+}
+
+.card {
+    max-width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: none !important;
+    
+    
+    text-align: start;
+}
+.card:hover {
+    background-color:#35093C;
+    border: none;
+}
+.service2 {
+    display: flex;
+
+
+}
+@media only screen and (max-width: 420px) {
+   .our-ser {
+    text-align: center;
+    padding-bottom: 30px;
+   }
+   .our-ser span {
+   font-size: 20px;
+   }
+   .our-ser h3{
+    font-size: 35px;
+   }
+   .our-ser p{
+    font-size: 20px;
+   }
+  }

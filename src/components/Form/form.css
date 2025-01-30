@@ -1,0 +1,55 @@
+.lefttext span {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #c36;
+
+
+}
+
+.lefttext h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+
+.lefttext p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+}
+.form-control {
+    border-radius: 0%;
+    padding: 15px;
+    background: transparent;
+    
+}
+.formbg {
+
+    /* background-color: #240429; */
+    background-color: rgb(20, 10, 44);
+    padding: 50px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .form-list {
+        display: block;
+        
+    }
+   .lefttext {
+    text-align: center;
+    padding-bottom: 30px;
+   }
+   .lefttext span {
+    font-size: 15px;
+  }
+  .lefttext h2 {
+    font-size: 35px;
+  }
+  .lefttext p {
+    font-size: 20px;
+  }
+}

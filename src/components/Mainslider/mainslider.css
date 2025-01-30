@@ -1,0 +1,55 @@
+.center-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.Button {
+    background-color: #c36;
+    border: none !important;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 0%;
+    align-items: center;
+}
+.Button:hover {
+    background-color: #51245ffa ;
+    color: white;
+
+}
+
+.slider-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 420px) {
+    .slider-item {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .slider-image {
+        
+        height: 100px;
+    }
+    .center-caption {
+        font-size: 30px;
+        width: 100%;
+    }
+    .Button{
+        padding: 10px 25px;
+
+    }
+  }

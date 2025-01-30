@@ -1,0 +1,272 @@
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-share.css');
+
+* {
+  box-sizing: border-box;
+}
+/* 
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  
+  background-image: linear-gradient(#e8f0ff 0%, white 52.08%);
+  color: #0e3481;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.header__description {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.header__description2 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.header__button {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  color: #007bff;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.header__button:hover {
+  color: #0056b3;
+  background-color: transparent;
+  border-color: #0056b3;
+} */
+/* .App {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .IMAGE-GALLERY {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+/* .masonry-gallery-demo {
+  margin: 0 150px;
+  
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid-sizer,
+  .lg-item {
+    width: 33.33%;
+  }
+
+  .lg-item {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .lg-item img {
+    display: block;
+    max-width: 100%;
+  }
+  .gallery-item {
+    margin-top: 20px;
+  }
+  .grid-sizer {
+    justify-items: center;
+    text-align: center;
+  }
+  
+} */ 
+/* 
+ .masonry-gallery-demo {
+  margin: 0 150px;
+  
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid-sizer,
+  .lg-item {
+    width: 33.33%;
+  }
+
+  .lg-item {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .lg-item img {
+    display: block;
+    max-width: 100%;
+  }
+  .gallery-item {
+    margin-top: 20px;
+  }
+  .grid-sizer {
+    justify-items: center;
+    text-align: center;
+  }
+  
+}  */
+
+
+/* .imges {
+  width: 100%;
+  padding: 5px;
+}
+.imgs {
+  height: 100%;
+  width: 100%;
+}
+.imagetext {
+  text-align: center;
+ 
+  font-size: 30px;
+  color: white;
+  padding: 60px;
+}
+@media only screen and (max-width: 420px) {
+ .setting {
+  width: 100%;
+ }
+} */
+
+.imagetext {
+  text-align: center;
+ 
+  font-size: 30px;
+  color: white;
+  padding: 60px;
+}
+
+.modal-footer button {
+  margin: 0 10px;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  padding: 10px;
+}
+.photo-thumbnail {
+  overflow: hidden;
+}
+.photo-thumbnail img {
+  transition: transform 0.3s ease;
+}
+
+.photo-thumbnail img:hover {
+  transform: scale(1.05);
+  padding: 10px;
+}
+/* .Modal-Body {
+  background:transparent;
+} */
+
+/* Make the modal background transparent */
+.Modal-Body .modal-content {
+  background: rgba(0, 0, 0, 0); /* Transparent background */
+  border-radius: none;
+  border: none;
+  width: 100%;
+  
+  /* Optional: rounded corners */
+}
+
+/* Style the modal body to center the image */
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Style the close button in the header (top-left) */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the buttons for previous and next */
+.modal-footer .btn-secondary {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-footer .btn-secondary svg {
+  font-size: 1.5rem;
+}
+
+/* Add some padding and spacing to the modal header */
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: none;
+}
+
+.modal-title {
+  color: white;
+  font-size: 1.25rem;
+}
+.modal-footer {
+  border-top: none;
+}

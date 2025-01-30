@@ -1,0 +1,50 @@
+.img2 {
+    max-width: 80%;
+}
+.inerbanner {
+    width: 100%;
+    
+}
+.inerbanner-content h1 {
+    font-size: 60px;
+    padding: 30px 10px;
+    color: white;
+}
+.inerbanner-content p {
+    font-size: 20px;
+    color: white;
+    padding: 12px 10px;
+}
+.inerbanner-batton {
+    margin-left: 10px;
+}
+@media only screen and (max-width: 420px) {
+ .inerbanner-content {
+    width: 100%;
+    order: 2;
+ }
+ .inerbanner {
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-size:none;
+    background-position: center;
+    height: 300px;
+    display: none;
+ }
+ .inerbanner-row {
+    display: inline;
+ }
+ .inerbanner-content h1 {
+    font-size: 10px;
+    text-align: center;
+ }
+ .inerbanner-content p {
+    font-size: 10px;
+    text-align: center;
+ }
+ .inerbanner-image {
+        width: 100%;
+        order: 1;
+ }
+  }

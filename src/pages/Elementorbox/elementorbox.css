@@ -1,0 +1,65 @@
+
+.elementor-text span {
+    
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: white;
+
+}
+.elementor-text h2  {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+.elementor-text p  {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+}
+/* .bg  {
+    background-color: #fd4380;
+} */
+
+.sizee {
+    font-size: 30px;
+   
+}
+.img-fluid {
+    
+}
+
+@media only screen and (max-width: 420px) {
+   
+   .elementor {
+    display: inline;
+   }
+   
+    .elementor1 {
+        width: 100%;
+        text-align: center;
+       
+    }
+    .elementor2 {
+        text-align: center;
+        width: 100%;
+    }
+    .elementor-text span {
+        font-size: 20px;
+   }
+    .elementor-text h2 {
+         font-size: 35px;
+    }
+    .elementor-text p {
+        font-size: 15px;
+   }
+   .sizee {
+    font-size: 20px;
+   }
+   .icoon {
+    font-size: 10px;
+    
+   }
+  }

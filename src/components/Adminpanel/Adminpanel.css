@@ -1,0 +1,48 @@
+.widget {
+ border: 1px solid white;
+ 
+ border-radius: 10px;
+ 
+ overflow: hidden;
+}
+.links {
+    text-decoration: none !important;
+    text-transform: none !important;
+}
+.links li {
+    padding: 25px;
+color: white !important;
+text-decoration: none !important;
+text-transform: none !important;
+}
+.links li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 2px solid white;
+}
+.das-icon {
+    padding-right: 5px;
+    font-size: 20px;
+    
+}
+.a-bg {
+    /* background-color: rgb(20, 10, 44); */
+    background-color: transparent;
+    
+    top: 10%;
+
+}
+.title {
+    padding-bottom: 60px;
+    color: white;
+    font-size: 30px;
+}
+.deffernt {
+   margin-top: 16px;
+}
+.py-5 {
+    padding-top: 6rem !important;
+    padding-bottom: 3rem !important;
+}
+.text-white {
+    text-decoration: none;
+}
