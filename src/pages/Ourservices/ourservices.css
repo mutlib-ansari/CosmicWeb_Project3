@@ -31,12 +31,22 @@
     margin-top: 30px;
     color: white;
 }
-
+/* .img-width {
+    width: 50%;
+    height: 50%;
+    
+} */
 .img {
     width: 20%;
     height: 40%;
     
 }
+/* .card3:hover {
+    transition: all .4s ease !important;
+    overflow: hidden !important;
+    background-color: #35093C;
+} */
+
 
 
 
@@ -58,7 +68,7 @@
 
 .card {
     max-width: 100%;
-    background-color: transparent;
+    background-color:transparent !important;
     color: white;
     border: 1px solid #ccc;
     padding: 20px;
@@ -70,13 +80,38 @@
     text-align: start;
 }
 .card:hover {
-    background-color:#35093C;
+    background-color:#35093C !important;
     border: none;
 }
 .service2 {
     display: flex;
 
 
+}
+
+.card3 {
+    transition: all 0.4s ease !important;
+    overflow: hidden !important;
+   
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card3:hover {
+    background-color: #35093C !important;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    
+}
+
+.img-hover {
+    transition: transform 0.4s ease-in-out;
+    
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+    
 }
 @media only screen and (max-width: 420px) {
    .our-ser {

@@ -15,7 +15,7 @@ import Button from 'react-bootstrap/Button';
 import team from '../../assets/images/ourservices/team1.jpg';
 import team2 from '../../assets/images/ourservices/team2.jpg';
 import team3 from '../../assets/images/ourservices/team3.jpg';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 
 function Ourservices() {
@@ -30,7 +30,7 @@ function Ourservices() {
             img: img2,
             title: "General consultation",
             text: "Astrology is one of the earliest attempts made by man to find the order hidden behind or within the confusing and apparent in the world.",
-            className: "img2"
+            className: "img2 img-width"
 
         },
         {
@@ -68,9 +68,20 @@ function Ourservices() {
                     <p>Lorem ipsum dolor sit amet consectetur. Auctor tristique malesuada arcu.</p>
                     <Row xs={1} md={3} className="g-4">
                         {services.map((service, idx) => (
+                            // <Col key={idx}>
+                            //     <Card className='card3'>
+                            //         <Card.Img variant="top" src={service.img} className='img bouncing' />
+                            //         <Card.Body>
+                            //             <Card.Title>{service.title}</Card.Title>
+                            //             <Card.Text>
+                            //                 {service.text}
+                            //             </Card.Text>
+                            //         </Card.Body>
+                            //     </Card>
+                            // </Col>
                             <Col key={idx}>
-                                <Card className='card3'>
-                                    <Card.Img variant="top" src={service.img} className='img bouncing' />
+                                <Card className='card3 hover-effect'>
+                                    <Card.Img variant="top" src={service.img} className='img bouncing img-hover' />
                                     <Card.Body>
                                         <Card.Title>{service.title}</Card.Title>
                                         <Card.Text>
@@ -79,12 +90,13 @@ function Ourservices() {
                                     </Card.Body>
                                 </Card>
                             </Col>
+
                         ))}
                     </Row>
                 </div>
 
 
-                
+
 
 
 

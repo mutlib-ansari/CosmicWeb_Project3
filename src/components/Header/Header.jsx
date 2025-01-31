@@ -142,13 +142,13 @@ const Header = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto next-navbar">
                                 <Nav.Link href="/" className="hoverr "><IoHome className="nav-text" /><span >Home</span></Nav.Link>
-                                <Nav.Link href="#services" className="hoverr"><RxHamburgerMenu className="" /><span>Services</span>
+                                <Nav.Link href="#services" className="hoverr"><RxHamburgerMenu className="nav-text" /><span>Services</span>
                                     <ul className="hoverr2">
                                         <li className="">Astrology Consultation</li>
                                         <li>Vastu Consultation</li>
                                     </ul>
                                 </Nav.Link>
-                                <Nav.Link href="#services" className="hoverr"><FaRegFileAlt className="nav-text" /> <span>Appoiments</span></Nav.Link>
+                                <Nav.Link href="/appointmentForm" className="hoverr"><FaRegFileAlt className="nav-text" /> <span>Appoiments</span></Nav.Link>
                                 <Nav.Link href="/aboutus" className="hoverr"><FaShoppingBag className="nav-text" /> <span>About us</span></Nav.Link>
                             </Nav>
 
@@ -162,7 +162,7 @@ const Header = () => {
                             </Navbar.Brand>
 
                             <Nav className="ms-auto next-navbar">
-                                <Nav.Link href="#blog" className="hoverr"><BiLogoBlogger className="nav-text" /><span>Blog</span></Nav.Link>
+                                <Nav.Link href="/blogPage" className="hoverr"><BiLogoBlogger className="nav-text" /><span>Blog</span></Nav.Link>
                                 <Nav.Link href="Adminpanel/" className="hoverr"><FaPhoneAlt className="nav-text" /> <span>Help</span></Nav.Link>
                                 <Nav.Link href="#Gallerys" className="hoverr"><GrGallery className="nav-text" /><span>Gallerys</span>
                                     <ul className="hoverr2">

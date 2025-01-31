@@ -9,7 +9,7 @@ import logo from '../../assets/images/navbar/logo2.png'
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 
 
@@ -17,7 +17,7 @@ import 'aos/dist/aos.css';
 
 const Footer = () => {
     return (
-        <footer className="footer"  style={{
+        <footer className="footer" style={{
             backgroundImage: " url('https://cosmicenergiies.com/wp-content/themes/dt-the7/images/backgrounds/patterns/full/congruent_outline.png')",
             backgroundPosition: 'center center',
             backgroundAttachment: 'fixed',
@@ -51,7 +51,24 @@ const Footer = () => {
                         <h3>SING-UP FOR OUR NEWLETTERS</h3>
                         <form className='form'>
                             <input type="email" placeholder="Enter email address" />
-                            <Button type="submit" className='Button2'> Subscribe</Button>
+                            {/* <Button type="submit" className='Button2'> Subscribe</Button> */}
+                            <button className="c-button c-button--gooey Button3"> Subscribe
+                                <div className="c-button__blobs">
+                                    <div />
+                                    <div />
+                                    <div />
+                                </div>
+                            </button>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style={{ display: 'block', height: 0, width: 0 }}>
+                                <defs>
+                                    <filter id="goo">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation={10} result="blur" />
+                                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                        <feBlend in="SourceGraphic" in2="goo" />
+                                    </filter>
+                                </defs>
+                            </svg>
+
 
                         </form>
                         <p>We promise not to spam you :)</p>

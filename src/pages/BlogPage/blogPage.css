@@ -1,0 +1,43 @@
+.blog-top {
+    padding-top: 100px;
+    /* position: relative;
+    height: 500px; */
+    height: 900px;
+  
+}
+
+
+
+
+
+.card {
+    transition: transform 0.2s;
+    /* position: absolute;
+    width: 100%; */
+    
+   
+}
+
+.card:hover {
+    transform: translatey(-2px);
+    
+    
+}
+
+.list-group-item-action {
+    transition: all 0.2s;
+   
+    
+}
+
+.list-group-item-action:hover {
+    background-color: #f8f9fa;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.color-change {
+    background-color:rgb(69, 48, 114) ;
+    color: white;
+}

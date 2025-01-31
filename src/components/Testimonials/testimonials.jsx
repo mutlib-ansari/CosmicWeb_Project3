@@ -39,7 +39,7 @@ function Testimonials() {
                                     <p className="testimonial-text">I came to consultation, because I was puzzled with current life situation and Astral gave me clear ways to develop, and a plan of how to move ahead to avoid further problems. Some things she said became a much-needed insight for me.</p>
                                     <div className="testimonial-footer">
                                         <h1 className="testimonial-author">David parker - Astrologer</h1>
-                                        <span className="testimonial-date">Date 1</span>
+                                        {/* <span className="testimonial-date">Date 1</span> */}
                                     </div>
                                 </div>
                             </div>

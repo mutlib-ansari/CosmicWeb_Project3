@@ -78,7 +78,7 @@
 
    }
 
-   .iner-icon {
+   /* .iner-icon {
        color: white;
        margin-top: 30px;
        margin-left: 20px;
@@ -91,12 +91,20 @@
 
 
 
-   }
+   } */
 
-   .iner-icon:hover {
+   /* .iner-icon:hover {
        background-color: #35093c;
-   }
-
+   } */
+    .iner-icon2 {
+        align-content: center;
+        transition: transform 0.3s ease;
+        
+    }
+    .iner-icon2 svg:hover {
+        transform: translateY(-5px);
+        transition: transform 0.3s ease-out;
+    }
 
    .bg {
        /* background-color: #8a3397; */

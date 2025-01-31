@@ -152,7 +152,7 @@ const VideoSlider = () => {
                 <div className='videotext'><h1>VIDEO GALLERY</h1></div>
                 <Slider {...settings}>
                     <div className="project-slide">
-                        <Card style={{ width: '30rem', height: '40rem' }} className=''>
+                        <Card style={{ width: '30rem', height: '35rem' }} className=''>
 
                             <iframe
                                 width="100%"
@@ -182,7 +182,7 @@ const VideoSlider = () => {
                         </Card>
                     </div>
                     <div className="project-slide">
-                        <Card style={{ width: '30rem', height: '40rem' }} className=''>
+                        <Card style={{ width: '30rem', height: '35rem' }} className=''>
 
                             <iframe
                                 width="100%"
@@ -220,7 +220,7 @@ const VideoSlider = () => {
 
 
                     <div className="project-slide">
-                        <Card style={{ width: '30rem', height: '40rem' }} className='card'>
+                        <Card style={{ width: '30rem', height: '35rem' }} className='card'>
 
                             <iframe
                                 width="100%"

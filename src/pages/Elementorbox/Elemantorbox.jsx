@@ -7,7 +7,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { SiClockify } from "react-icons/si";
 import Button from 'react-bootstrap/Button';
 import { IoIosStar } from "react-icons/io";
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 
 function Elemantorbox() {
@@ -21,7 +21,7 @@ function Elemantorbox() {
         }} className='bg'>
             <Container>
                 <Row className='elementor'>
-                    <Col className='col-md-7 elementor1 'data-aos="fade-up-right">
+                    <Col className='col-md-7 elementor1 ' data-aos="fade-up-right">
                         <div className=" text-center my-4">
                             <img
                                 loading="lazy"
@@ -57,7 +57,26 @@ function Elemantorbox() {
                                     </div>
                                 </li>
                             </ul>
-                            <Button className='Button  mt-0'><IoIosStar /> Book Now</Button>
+                            {/* <Button className='Button  mt-0'><IoIosStar /> Book Now</Button> */}
+                            <div className=''>
+                                <button className="c-button c-button--gooey"> <IoIosStar  />Book now
+                                    <div className="c-button__blobs">
+                                        <div />
+                                        <div />
+                                        <div />
+                                    </div>
+                                </button>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style={{ display: 'block', height: 0, width: 0 }}>
+                                    <defs>
+                                        <filter id="goo">
+                                            <feGaussianBlur in="SourceGraphic" stdDeviation={10} result="blur" />
+                                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                            <feBlend in="SourceGraphic" in2="goo" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                           
                         </div>
                     </Col>
                 </Row>
