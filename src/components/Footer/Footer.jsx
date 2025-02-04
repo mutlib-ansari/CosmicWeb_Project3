@@ -94,7 +94,7 @@ import { Container, Row, Col, Form } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPinterest } from 'react-icons/fa';
 import { MdHeadset, MdEmail, MdChat } from 'react-icons/md';
 import logo from '../../assets/images/navbar/logo2.png'
-import './Footer.css';
+import './footer.css';
 
 export default function Footer() {
     return (
