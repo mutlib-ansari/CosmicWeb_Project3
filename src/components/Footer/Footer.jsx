@@ -111,8 +111,8 @@ export default function Footer() {
                     <Col md={6}>
                         {/* <h2 className='Dreams-text'>Dreams Tour</h2> */}
 
-                        <img src={logo} className='footerimg py-3'/>
-                        <p className="lead">
+                        <img src={logo} className='footerimg  py-3'/>
+                        <p className="lead d-none">
                             Our mission is to offer you a seamless and enjoyable car rental experience.
                             Whether you're planning a road trip
                         </p>
@@ -149,7 +149,7 @@ export default function Footer() {
                     <Col md={6}>
                         <Row>
                             <Col md={4}>
-                                <h4 className='Dreams-text'>Pages</h4>
+                                <h4 className='Dreams-text py-3'>Pages</h4>
                                 <ul className="list-unstyled">
                                     <li>Our Team</li>
                                     <li>Pricing Plans</li>
@@ -161,7 +161,7 @@ export default function Footer() {
                             </Col>
 
                             <Col md={4}>
-                                <h4 className='Dreams-text'>Company</h4>
+                                <h4 className='Dreams-text py-3'>Company</h4>
                                 <ul className="list-unstyled">
                                     <li>About Us</li>
                                     <li>Careers</li>
@@ -172,7 +172,7 @@ export default function Footer() {
                                 </ul>
                             </Col>
 
-                            <Col md={4}>
+                            {/* <Col md={4}>
                                 <h4 className='Dreams-text'>Destinations</h4>
                                 <ul className="list-unstyled">
                                     <li>Hawaii</li>
@@ -182,7 +182,7 @@ export default function Footer() {
                                     <li>New York</li>
                                     <li>Los Angeles</li>
                                 </ul>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Col>
                 </Row>
@@ -190,7 +190,7 @@ export default function Footer() {
                 {/* Contact Section */}
                 <Row className="contact-section mb-4">
                     <Col md={3}>
-                        <div className="contact-item">
+                        <div className="contact-item py-3">
                             <MdHeadset className="contact-icon" />
                             <div>
                                 <p>Customer Support</p>
@@ -200,7 +200,7 @@ export default function Footer() {
                     </Col>
 
                     <Col md={3}>
-                        <div className="contact-item">
+                        <div className="contact-item py-3">
                             <MdEmail className="contact-icon" />
                             <div>
                                 <p>Drop Us an Email</p>
@@ -210,7 +210,7 @@ export default function Footer() {
                     </Col>
 
                     <Col md={3}>
-                        <div className="contact-item">
+                        <div className="contact-item py-3">
                             <MdChat className="contact-icon" />
                             <div>
                                 <p>Toll Free</p>
@@ -218,7 +218,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </Col>
-                    <Col md={3} className="social-icons mb-4">
+                    <Col md={3} className="social-icons mb-4 py-3">
                         <FaFacebook className="social-icon" />
                         <FaTwitter className="social-icon" />
                         <FaInstagram className="social-icon" />

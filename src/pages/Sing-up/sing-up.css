@@ -31,3 +31,10 @@
 /* .signin-page {
     height: 100%;
 } */
+
+@media only screen and (max-width: 420px) {
+
+    .fw-bold2 {
+        font-size: 40px
+    }
+  }

@@ -1,49 +1,100 @@
-.modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* .modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
-.modal img {
-    max-height: 80vh;
-    max-width: 90vw;
-    border-radius: 10px;
+/* .modal img {
+  max-height: 80vh;
+  max-width: 90vw;
+  border-radius: 10px;
 }
 
 .btn1 {
-    position: absolute;
-    left: -80px;
+  position: absolute;
+  left: -80px;
 }
 
 .btn2 {
-    position: absolute;
-    right: -80px;
+  position: absolute;
+  right: -80px;
 }
 
 .btn3 {
-    top: -28px;
-   
-    right: -460px;
-}
+  top: -28px;
+
+  right: -460px;
+} */
+
 .Photo-Gallery {
-    font-size: 30px;
-    color: white;
+  font-size: 30px;
+  color: white;
 }
+
 /* Thumbnails - Hover effect for zoom-in/out */
 .img-thumbnail {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1);
+  /* Zooms the image slightly */
+}
+
+/* Modal image - Hover effect for zoom-in/out */
+.modal-body img {
+  transition: transform 0.3s ease;
+}
+
+.modal-body img:hover {
+  transform: scale(1.2);
+  /* Zooms the image more when hovered inside the modal */
+}
+.modal-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  top: 10px;
+  right: 10px;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+
+.prev-btn:hover, .next-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .prev-btn, .next-btn {
+      font-size: 1.5rem;
+      padding: 8px 12px;
   }
-  
-  .img-thumbnail:hover {
-    transform: scale(1.1); /* Zooms the image slightly */
+}
+
+@media only screen and (max-width: 420px) {
+
+  .Aboutus2text {
+    text-align: center;
+    top: 50%;
+    left: 30px;
   }
-  
-  /* Modal image - Hover effect for zoom-in/out */
-  .modal-body img {
-    transition: transform 0.3s ease;
-  }
-  
-  .modal-body img:hover {
-    transform: scale(1.2); /* Zooms the image more when hovered inside the modal */
-  }
-  
+}

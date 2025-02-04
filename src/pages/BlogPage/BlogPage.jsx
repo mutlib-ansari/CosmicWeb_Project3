@@ -311,8 +311,148 @@
 // }
 
 
+// import { Container, Row, Col } from 'react-bootstrap';
+// // import Slider from 'react-slick';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
+// import './blogPage.css';
+// import { Link } from "react-router-dom";
+
+// export default function BlogSlider() {
+//     const blogPosts = [
+//         {
+//             id: 1,
+//             title: 'Astrology is one of the earliest attempts made  .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg', // Add your image path
+//             category: 'Travel Tips',
+//             date: '10 Oct 2025',
+//         },
+//         {
+//             id: 2,
+//             title: 'Astrology is one of the earliest attempts made  .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg', // Add your image path
+//             category: 'Tech',
+//             date: '12 Oct 2025',
+//         },
+//         {
+//             id: 3,
+//             title: 'Astrology is one of the earliest attempts made .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+//             category: 'Travel',
+//             date: '15 Oct 2025',
+//         },
+//         {
+//             id: 4,
+//             title: 'Astrology is one of the earliest attempts made .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+//             category: 'Travel',
+//             date: '15 Oct 2025',
+//         },
+//         {
+//             id: 5,
+//             title: 'Astrology is one of the earliest attempts made .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+//             category: 'Travel',
+//             date: '15 Oct 2025',
+//         },
+//         {
+//             id: 6,
+//             title: 'Astrology is one of the earliest attempts made .',
+//             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+//             category: 'Travel',
+//             date: '15 Oct 2025',
+//         },
+
+//     ];
+
+//     // Slick Slider settings
+//     // const sliderSettings = {
+//     //     dots: true,
+//     //     infinite: true,
+//     //     speed: 500,
+//     //     slidesToShow: 3,
+//     //     slidesToScroll: 1,
+//     //     responsive: [
+//     //         {
+//     //             breakpoint: 992,
+//     //             settings: {
+//     //                 slidesToShow: 2,
+//     //             },
+//     //         },
+//     //         {
+//     //             breakpoint: 768,
+//     //             settings: {
+//     //                 slidesToShow: 1,
+//     //             },
+//     //         },
+//     //     ],
+//     // };
+
+//     return (
+//         <section className="blog-slider-section">
+//             <div className='bggg'>
+//             </div>
+//             <div >
+//                 <h1 className='Aboutus1text'>Blog page</h1>
+//             </div>
+//             <Container className='py-5'>
+//                 <Row className="mb-5">
+//                     <Col>
+//                         <h2 className="section-title">Latest News & Article</h2>
+//                         <p className="section-subtitle">
+//                             Connecting Needs with Offers for the Professional Flight Services
+//                         </p>
+//                     </Col>
+//                 </Row>
+
+//                 {/* <Slider {...sliderSettings}> */}
+//                 {/* <div >
+//                     <Col md={12} className='flexx' >{blogPosts.map((post) => (
+//                         <div key={post.id} className="blog-slide">
+//                             <div className="blog-card">
+//                                 <div className="blog-image-wrapper">
+//                                     <Link to={`/posts/${post.id}`}> <img
+//                                         src={post.image}
+//                                         alt={post.title}
+//                                         className="blog-image"
+//                                     /></Link>
+//                                 </div>
+//                                 <div className="blog-content">
+//                                     <span className="blog-category">{post.category}</span>
+//                                     <h3 className="blog-title">{post.title}</h3>
+//                                     <span className="blog-date">{post.date}</span>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     ))}</Col>
+//                 </div> */}
+//                 <div className='blog-posts'>
+//                     {blogPosts.map((post) => (
+//                         <div key={post.id} className="blog-slide">
+//                             <div className="blog-card">
+//                                 <div className="blog-image-wrapper">
+//                                     <Link to={`/posts/${post.id}`}> <img
+//                                         src={post.image}
+//                                         alt={post.title}
+//                                         className="blog-image"
+//                                     /></Link>
+//                                 </div>
+//                                 <div className="blog-content">
+//                                     <span className="blog-category">{post.category}</span>
+//                                     <h3 className="blog-title">{post.title}</h3>
+//                                     <span className="blog-date">{post.date}</span>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     ))}
+//                 </div>
+//                 {/* </Slider> */}
+//             </Container>
+//         </section>
+//     );
+// }
+
 import { Container, Row, Col } from 'react-bootstrap';
-// import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './blogPage.css';
@@ -322,81 +462,54 @@ export default function BlogSlider() {
     const blogPosts = [
         {
             id: 1,
-            title: 'Astrology is one of the earliest attempts made  .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
             category: 'Travel Tips',
             date: '10 Oct 2025',
         },
         {
             id: 2,
-            title: 'Astrology is one of the earliest attempts made  .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
             category: 'Tech',
             date: '12 Oct 2025',
         },
         {
             id: 3,
-            title: 'Astrology is one of the earliest attempts made .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
             category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 4,
-            title: 'Astrology is one of the earliest attempts made .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
             category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 5,
-            title: 'Astrology is one of the earliest attempts made .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
             category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 6,
-            title: 'Astrology is one of the earliest attempts made .',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg', // Add your image path
+            title: 'Astrology is one of the earliest attempts made.',
+            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
             category: 'Travel',
             date: '15 Oct 2025',
         },
-
     ];
-
-    // Slick Slider settings
-    // const sliderSettings = {
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     responsive: [
-    //         {
-    //             breakpoint: 992,
-    //             settings: {
-    //                 slidesToShow: 2,
-    //             },
-    //         },
-    //         {
-    //             breakpoint: 768,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //             },
-    //         },
-    //     ],
-    // };
 
     return (
         <section className="blog-slider-section">
-            <div className='bggg'>
-            </div>
-            <div >
-                <h1 className='Aboutus1text'>Blog page</h1>
-            </div>
+            <div className='bggg'></div>
+            <h1 className='Aboutus2text text-center'>Blog Page</h1>
             <Container className='py-5'>
-                <Row className="mb-5">
+                <Row className="mb-5 text-center">
                     <Col>
                         <h2 className="section-title">Latest News & Article</h2>
                         <p className="section-subtitle">
@@ -404,49 +517,24 @@ export default function BlogSlider() {
                         </p>
                     </Col>
                 </Row>
-
-                {/* <Slider {...sliderSettings}> */}
-                {/* <div >
-                    <Col md={12} className='flexx' >{blogPosts.map((post) => (
-                        <div key={post.id} className="blog-slide">
-                            <div className="blog-card">
-                                <div className="blog-image-wrapper">
-                                    <Link to={`/posts/${post.id}`}> <img
-                                        src={post.image}
-                                        alt={post.title}
-                                        className="blog-image"
-                                    /></Link>
-                                </div>
-                                <div className="blog-content">
-                                    <span className="blog-category">{post.category}</span>
-                                    <h3 className="blog-title">{post.title}</h3>
-                                    <span className="blog-date">{post.date}</span>
-                                </div>
-                            </div>
-                        </div>
-                    ))}</Col>
-                </div> */}
-                <div className='blog-posts'>
+                <Row className="g-4">
                     {blogPosts.map((post) => (
-                        <div key={post.id} className="blog-slide">
+                        <Col key={post.id} xs={12} sm={6} md={4}>
                             <div className="blog-card">
                                 <div className="blog-image-wrapper">
-                                    <Link to={`/posts/${post.id}`}> <img
-                                        src={post.image}
-                                        alt={post.title}
-                                        className="blog-image"
-                                    /></Link>
+                                    <Link to={`/posts/${post.id}`}>
+                                        <img src={post.image} alt={post.title} className="blog-image img-fluid" />
+                                    </Link>
                                 </div>
-                                <div className="blog-content">
-                                    <span className="blog-category">{post.category}</span>
+                                <div className="blog-content text-center">
+                                    <span className="blog-category d-block">{post.category}</span>
                                     <h3 className="blog-title">{post.title}</h3>
-                                    <span className="blog-date">{post.date}</span>
+                                    <span className="blog-date d-block">{post.date}</span>
                                 </div>
                             </div>
-                        </div>
+                        </Col>
                     ))}
-                </div>
-                {/* </Slider> */}
+                </Row>
             </Container>
         </section>
     );
