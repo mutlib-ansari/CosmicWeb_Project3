@@ -109,7 +109,7 @@ const SignIn = () => {
             backgroundImage: `url(${bg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
-            Height: "100vh",
+             minHeight: "100vh",
           }}>
             <h2 className="fw-bold">SIGN IN TO YOUR <span className="text-primary">ADVENTURE!</span></h2>
           </Col>

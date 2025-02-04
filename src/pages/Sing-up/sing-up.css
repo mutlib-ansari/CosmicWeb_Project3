@@ -13,7 +13,7 @@
 .Right-Side {
     
     background-color: rgba(22, 4, 48, 1);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .Right-Side2 {
@@ -28,6 +28,6 @@
 .Right-Side2img {
     text-align: center;
 }
-.signin-page {
+/* .signin-page {
     height: 100%;
-}
+} */
