@@ -32,8 +32,7 @@ function App() {
           <Route path="/sing-up" element={<Singup />}/>
           
           
-          
-          
+    
         </Routes>
       </Router>
       {/* <Footer2 /> */}
