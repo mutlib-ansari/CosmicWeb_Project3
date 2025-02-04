@@ -13,8 +13,8 @@ import Videogallery from "../Videogallery/Videogallery";
 import Inerbanner from "../Inerbanner/Inerbanner";
 import AdvantagesSection from "../AdvantagesSection/AdvantagesSection";
 // import PostDetails  from "../BlogPage/PostDetails";
-import Singup from "../Sing-up/Sing-up"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Singup from "../Sing-up/Sing-up"
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Home = () => {
 
@@ -32,7 +32,7 @@ const Home = () => {
       <Form />
       <Testimonials />
       {/* <PostDetails /> */}
-      <Route path="/sing-up" element={<Singup />}/>
+      {/* <Router><Routes><Route path="/sing-up" element={<Singup />}/></Routes></Router> */}
       
       </div>
     </>
