@@ -8,10 +8,16 @@ import Footer from "./components/Footer/Footer";
 import AppointmentForm from "./pages/Appointment/Appointment";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import PostDetails  from "./pages/BlogPage/PostDetails";
+import ImagegalleryPage from "./pages/Imagegallerypage/Imagegallerypage";
+import Videogallerypage from "./pages/Videogallerypage/Videogallerypage"
+import Singup from "./pages/Sing-up/Sing-up"
+// import Footer2 from "./components/Footer2/Footer2"
 
 function App() {
   return (
     <><div className="mybg">
+      {/* <Router><Routes><Route path="/sing-up" element={<Singup />}/></Routes></Router> */}
+      
       <Header />
       <Router>
         <Routes>
@@ -20,11 +26,17 @@ function App() {
           <Route path="/aboutus" element={<Aboutus />}/>
           <Route path="/appointmentForm" element={<AppointmentForm />}/>
           <Route path="/blogPage" element={<BlogPage />}/>
-          <Route path="/posts/:postId" element={<PostDetails />} />
+          <Route path="/posts/:id" element={<PostDetails />} />
+          <Route path="/imagegallerypage" element={<ImagegalleryPage />}/>
+          <Route path="/videogallerypage" element={<Videogallerypage />}/>
+          <Route path="/sing-up" element={<Singup />}/>
+          
+          
           
           
         </Routes>
       </Router>
+      {/* <Footer2 /> */}
       <Footer />
       </div>
     </>

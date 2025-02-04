@@ -1,0 +1,52 @@
+/* 
+/* 
+ Footer.css */
+ .footer-three {
+    background: #2d2d2d;
+    color: #fff;
+}
+
+.footer-menu li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-menu a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #fff;
+}
+
+.social-icon .list-inline-item {
+    margin-right: 1.5rem;
+}
+
+.social-icon a {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom {
+    background: #1a1a1a;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.policy-links a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.policy-links a:hover {
+    color: #fff;
+}  

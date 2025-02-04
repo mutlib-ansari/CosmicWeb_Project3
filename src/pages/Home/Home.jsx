@@ -12,6 +12,9 @@ import Imagegallery from "../Imagegallery/Imagegallery";
 import Videogallery from "../Videogallery/Videogallery";
 import Inerbanner from "../Inerbanner/Inerbanner";
 import AdvantagesSection from "../AdvantagesSection/AdvantagesSection";
+// import PostDetails  from "../BlogPage/PostDetails";
+import Singup from "../Sing-up/Sing-up"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Home = () => {
 
@@ -28,6 +31,8 @@ const Home = () => {
       <Videogallery />
       <Form />
       <Testimonials />
+      {/* <PostDetails /> */}
+      <Route path="/sing-up" element={<Singup />}/>
       
       </div>
     </>

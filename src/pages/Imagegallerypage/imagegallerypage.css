@@ -1,0 +1,49 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal img {
+    max-height: 80vh;
+    max-width: 90vw;
+    border-radius: 10px;
+}
+
+.btn1 {
+    position: absolute;
+    left: -80px;
+}
+
+.btn2 {
+    position: absolute;
+    right: -80px;
+}
+
+.btn3 {
+    top: -28px;
+   
+    right: -460px;
+}
+.Photo-Gallery {
+    font-size: 30px;
+    color: white;
+}
+/* Thumbnails - Hover effect for zoom-in/out */
+.img-thumbnail {
+    transition: transform 0.3s ease;
+  }
+  
+  .img-thumbnail:hover {
+    transform: scale(1.1); /* Zooms the image slightly */
+  }
+  
+  /* Modal image - Hover effect for zoom-in/out */
+  .modal-body img {
+    transition: transform 0.3s ease;
+  }
+  
+  .modal-body img:hover {
+    transform: scale(1.2); /* Zooms the image more when hovered inside the modal */
+  }
+  

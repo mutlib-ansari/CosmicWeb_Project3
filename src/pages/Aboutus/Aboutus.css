@@ -61,4 +61,11 @@
     z-index: 2;
   } */
 
-  
+  @media only screen and (max-width: 420px) {
+   
+    .Aboutus1text {
+      text-align: center;
+      top: 50%;
+      left: 110px;
+    }
+   }

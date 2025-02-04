@@ -166,13 +166,18 @@ const Header = () => {
                                 <Nav.Link href="Adminpanel/" className="hoverr"><FaPhoneAlt className="nav-text" /> <span>Help</span></Nav.Link>
                                 <Nav.Link href="#Gallerys" className="hoverr"><GrGallery className="nav-text" /><span>Gallerys</span>
                                     <ul className="hoverr2">
-                                        <li className="">Images Gallery</li>
-                                        <li className="">Video Gallery</li>
+                                        <li>
+                                            <a href="/imagegallerypage" className="text-decoration-none">Images Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="/videogallerypage" className="text-decoration-none">Video Gallery</a>
+                                        </li>
                                     </ul>
                                 </Nav.Link>
 
-                                <div className=''>
-                                    <button className="c-button c-button2 c-button--gooey">
+                                 <div className=''>
+                                    <a href="/sing-up" >
+                                   <button className="c-button c-button2 c-button--gooey">
                                         Sing/Login
                                         <div className="c-button__blobs">
                                             <div />
@@ -189,6 +194,7 @@ const Header = () => {
                                             </filter>
                                         </defs>
                                     </svg>
+                                    </a>
                                 </div>
                             </Nav>
                         </Navbar.Collapse>

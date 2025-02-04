@@ -1,0 +1,33 @@
+/* .singbgg {
+    background-color: rgb(69, 48, 114) !important;
+    
+    
+}
+.singbgg:hover {
+    background-color: rgb(69, 48, 114) !important;
+    border: none !important;
+}
+.singtop {
+    padding-top: 150px;
+} */
+.Right-Side {
+    
+    background-color: rgba(22, 4, 48, 1);
+    height: 100vh;
+}
+
+.Right-Side2 {
+    margin-top: 15%;
+   
+}
+.fw-bold2 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+}
+.Right-Side2img {
+    text-align: center;
+}
+.signin-page {
+    height: 100%;
+}
