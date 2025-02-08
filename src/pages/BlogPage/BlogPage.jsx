@@ -452,7 +452,7 @@
 //     );
 // }
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Breadcrumb, Row, Col } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './blogPage.css';
@@ -464,50 +464,71 @@ export default function BlogSlider() {
             id: 1,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
-            category: 'Travel Tips',
+            // category: 'Travel Tips',
             date: '10 Oct 2025',
         },
         {
             id: 2,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
-            category: 'Tech',
+            // category: 'Tech',
             date: '12 Oct 2025',
         },
         {
             id: 3,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
-            category: 'Travel',
+            // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 4,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
-            category: 'Travel',
+            // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 5,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
-            category: 'Travel',
+            // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 6,
             title: 'Astrology is one of the earliest attempts made.',
             image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
-            category: 'Travel',
+            // category: 'Travel',
             date: '15 Oct 2025',
         },
     ];
 
     return (
         <section className="blog-slider-section">
-            <div className='bggg'></div>
-            <h1 className='Aboutus2text text-center'>Blog Page</h1>
+            {/* <div className='bggg'><div><h1 className='Aboutus3text text-center'>Blog Page</h1></div></div> */}
+            {/* <div className='bggg'></div>
+            <Breadcrumb className='Breadcrumb  '>
+
+                <Breadcrumb.Item href="/" >Home</  Breadcrumb.Item>
+                <Breadcrumb.Item active>Blog Page</Breadcrumb.Item>
+            </Breadcrumb> */}
+
+            <div className="breadcrumb-container">
+                {/* Overlay */}
+                <div className="breadcrumb-overlay"></div>
+
+                <nav aria-label="breadcrumb" className="breadcrumb-content">
+                    <ol className="breadcrumb bg-transparent text-light text-center">
+                        <li className="breadcrumb-item">
+                            <a href="/" className="text-light">Home</a>
+                        </li>
+                        <li className="breadcrumb-item active text-light" aria-current="page">
+                            Blog Page
+                        </li>
+                    </ol>
+                </nav>
+            </div>
             <Container className='py-5'>
                 <Row className="mb-5 text-center">
                     <Col>
@@ -527,7 +548,7 @@ export default function BlogSlider() {
                                     </Link>
                                 </div>
                                 <div className="blog-content text-center">
-                                    <span className="blog-category d-block">{post.category}</span>
+                                    {/* <span className="blog-category d-block">{post.category}</span> */}
                                     <h3 className="blog-title">{post.title}</h3>
                                     <span className="blog-date d-block">{post.date}</span>
                                 </div>

@@ -53,3 +53,23 @@
 
     }
   }
+  
+  @media only screen and (max-width: 991px) {
+    .slider-item {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .slider-image {
+        
+        height: 100px;
+    }
+    .center-caption {
+        font-size: 50px;
+        width: 100%;
+    }
+    .Button{
+        padding: 10px 25px;
+
+    }
+  }

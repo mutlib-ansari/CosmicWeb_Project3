@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './advantagesSection.css'; // Create this CSS file
+import './advantagesSection.css'; 
 
 const AdvantagesSection = () => {
     return (
@@ -22,7 +22,7 @@ const AdvantagesSection = () => {
                     </Col>
                 </Row>
 
-                <Row className="g-4 t">
+                <Row className="g-4 ">
                     <Col md={6}>
                         <div className="feature-item p-4">
                             <h4 className="mb-3 text-white">ACTS AS A FINANCIAL PLANNER</h4>

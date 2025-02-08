@@ -3,8 +3,8 @@ import Slider from 'react-slick';
 import './testimonials.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Row, Col } from 'react-bootstrap';
-import 'aos/dist/aos.css'; 
+import { Row, Col, Container } from 'react-bootstrap';
+import 'aos/dist/aos.css';
 
 
 function Testimonials() {
@@ -19,13 +19,13 @@ function Testimonials() {
     };
 
     return (
-        <div className="testimonial container" >
-            <Row  data-aos="zoom-out-up">
-                <Col className='col-md-6'>
-                <div className='bookingtext'>
-                    <h1>What Customers Say About Our Booking Systems</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum omnis natus cumque possimus dicta suscipit enim, aperiam, voluptatum quis deleniti.</p>
-                </div>
+        <Container className="testimonial" >
+            <Row data-aos="zoom-out-up">
+                <Col className='col-md-6 testimonial2'>
+                    <div className='bookingtext'>
+                        <h1>What Customers Say About Our Booking Systems</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum omnis natus cumque possimus dicta suscipit enim, aperiam, voluptatum quis deleniti.</p>
+                    </div>
                     <div className='testimonial-width'>
                         {/* <div className='testimonial-top'>
                             <span>testimonials</span>
@@ -79,11 +79,11 @@ function Testimonials() {
                     </div>
                 </Col>
 
-                <Col className='col-md-6 bottom-img'>
-                <img src='https://themeforest.kreativdev.com/bookapp/demo/assets/images/testimonial-img-1.png' className='imgee'/>
+                <Col className='col-md-6 bottom-img d-lg-block d-none'>
+                    <img src='https://themeforest.kreativdev.com/bookapp/demo/assets/images/testimonial-img-1.png' className='imgee' />
                 </Col>
             </Row>
-        </div>
+        </Container>
     );
 }
 

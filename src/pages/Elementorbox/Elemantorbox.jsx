@@ -35,12 +35,12 @@ function Elemantorbox() {
                             />
                         </div>
                     </Col>
-                    <Col className='col-md-5 elementor2 py-5' data-aos="fade-up-left">
+                    <Col className='col-md-5 elementor2 py-3' data-aos="fade-up-left">
                         <div className='elementor-text'>
                             <span>Just Make an Appointment & You’re Done!</span>
                             <h2>opening hours</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-                            <ul className="list-unstyled py-5">
+                            <ul className="list-unstyled py-3  ">
                                 <li className="d-flex align-items-center mb-3 text-white">
                                     <CiLocationOn className="me-5  " style={{ fontSize: '3rem' }} />
                                     <div>
@@ -49,13 +49,13 @@ function Elemantorbox() {
                                         <p className="mb-0 sizee">9:30 am - 6:30 pm</p>
                                     </div>
                                 </li>
-                                <li className="d-flex align-items-center mb-3 text-white">
+                                {/* <li className="d-flex align-items-center mb-3 text-white">
                                     <SiClockify className="me-5 " style={{ fontSize: '3rem' }} />
                                     <div>
                                         <h5 className="mb-0 sizee">Opening Hours</h5>
                                         <p className="mb-0 sizee">Mon - Fri: 9:00 AM - 6:00 PM</p>
                                     </div>
-                                </li>
+                                </li> */}
                             </ul>
                             {/* <Button className='Button  mt-0'><IoIosStar /> Book Now</Button> */}
                             <div className=''>

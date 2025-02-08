@@ -20,21 +20,21 @@ function Form() {
 
                     <form className='formbg'>
                         <div className="row mb-3">
-                            <div className="col-md-6 borderr">
+                            <div className="col-md-6 col-6 borderr">
                                 <label htmlFor="firstName" className="form-label">First Name</label>
                                 <input type="text" className="form-control text-white-50" id="firstName" placeholder="Enter your first name" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-6">
                                 <label htmlFor="yourNumber" className="form-label">Your Number</label>
                                 <input type="text" className="form-control text-white-50" id="yourNumber" placeholder="Enter your number" />
                             </div>
                         </div>
                         <div className="row mb-3">
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-6">
                                 <label htmlFor="yourEmail" className="form-label">Your Email</label>
                                 <input type="email" className="form-control text-white-50" id="yourEmail" placeholder="Enter your email" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-6">
                                 <label htmlFor="service" className="form-label">Service</label>
                                 <input type="text" className="form-control text-white-50" id="service" placeholder="Enter the service you need" />
                             </div>
@@ -45,7 +45,7 @@ function Form() {
                         </div>
                         {/* <Button className='Button'><IoIosStar /> Book Now</Button> */}
                         <div className=''>
-                            <button className="c-button c-button--gooey"> <IoIosStar />Book now
+                            <button className="c-button c-button--gooey formbt"> <IoIosStar />Book now
                                 <div className="c-button__blobs">
                                     <div />
                                     <div />

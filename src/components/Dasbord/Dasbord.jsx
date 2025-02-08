@@ -19,9 +19,9 @@ function Dasbord() {
 
     return (
         <div className='background-color '>
-            <div className="container Dasbord-c max-w-[1280px] mx-auto">
+            <div className="container Dasbord-c max-w-[1280px] mx-auto py-3">
                 <div className='row'>
-                    <div className="col-md-6 hig  " data-aos="fade-right">
+                    <div className="col-md-6 d-lg-block d-none " data-aos="fade-right">
                         <div className="bg">
                             <div className="slide2 py-5">
                                 <Carousel fade controls={false}>
@@ -44,7 +44,7 @@ function Dasbord() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 " data-aos="fade-left">
+                    <div className="col-md-6 py-5 Dasbord2 " data-aos="fade-left">
                         <div className="content">
                             <span>Know About</span>
                             <h1>Discover everything yourself with astralVue</h1>

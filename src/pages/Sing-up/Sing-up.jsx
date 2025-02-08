@@ -98,12 +98,12 @@ import logo from '../../assets/images/navbar/logo2.png';
 
 const SignIn = () => {
   return (
-    <div className="signin-page py-5 justify-content-center align-items-center"
+    <div className="signin-page py-5  justify-content-center align-items-center"
 
     >
       {/* <Container className=" py-5 justify-content-center align-items-center"
       > */}
-        <Row className="signin-box  rounded shadow-lg py-5">
+        <Row className="signin-box  rounded shadow-lg py-0 py-md-5">
           {/* Left Side - Image Section */}
           <Col md={6} className=" d-md-block text-light text-center p-5" style={{
             backgroundImage: `url(${bg})`,

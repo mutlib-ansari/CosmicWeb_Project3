@@ -7,13 +7,14 @@ import sliderImg3 from "../../assets/images/slider/img3.jpg";
 // import { IoIosStar } from "react-icons/io";
 import './mainslider.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 AOS.init({
     duration: 1000, // Animation duration
     offset: 200, // Offset (in pixels) from the original trigger point
     once: true, // Whether animation should happen only once
-  });
+    
+});
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
@@ -24,8 +25,8 @@ function ControlledCarousel() {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
-            <Carousel.Item className="slider-item " data-aos="fade-up">
-                <img src={sliderImg} className="d-block w-100 slider-image" alt="First slide" style={{ height: '100vh', objectFit: 'cover' }} />
+            <Carousel.Item className="slider-item ">
+                <img src={sliderImg} className="d-block w-100 slider-image "  data-aos="fade-up" alt="First slide" style={{ height: '100vh', objectFit: 'cover' }} />
                 <Carousel.Caption className="slider-caption center-caption">
                     <h3>Start The Journey of Self-Discovery</h3>
                     {/* <Button className='Button'><IoIosStar /> Start now</Button> */}

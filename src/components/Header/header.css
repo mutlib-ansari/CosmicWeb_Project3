@@ -1,99 +1,250 @@
-.headerSection{
+.headerSection {
     position: absolute;
     z-index: 99;
     width: 100%;
 }
-innerHead{
-    padding-top: 0rem
-}
+
+
+
 .hoverr {
     color: #fff;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: 15px;
-    
+    padding-top: 25px;
+
 }
-.hoverr:hover{
+
+.hoverr:hover {
     color: #c36;
 }
+
 .nav-text {
     padding-right: 4px;
     margin-bottom: 5px;
 
 
 }
+
 .hoverr2 {
     display: none;
-    padding:10px 5px 0 10px;
+    padding: 10px 5px 0 10px;
     position: absolute;
-    
-    
+
+
 }
+
 .hoverr2 li {
     padding: 20px 20px;
     width: 100%;
     background-color: #240429;
-    color:white;
-    
-    
+    color: white;
+
+
 }
+
 .hoverr2 li:hover {
     color: #c36;
-    
-    
-    
+
+
+
 }
+
+.hoverr2 a:hover {
+    color: #c36;
+
+
+
+}
+
 .hoverr:hover .hoverr2 {
     display: block;
 
 }
+
 .imv {
     padding: 30px;
     background-color: rgb(69, 48, 114);
     color: #fff;
-    margin-top:-8px;
+    margin-top: -8px;
     margin-bottom: -8px;
-    
+
 }
+
 .imv:hover {
     background-color: #c36;
 }
+
 .imv span {
     color: #fff;
 }
+
 .imv span:hover {
     color: white;
-   
+
 }
-.c-button2  {
+
+.c-button2 {
     padding: 9px 5px;
-    font-size: 13px ;
-    
+    font-size: 13px;
+
 }
+
 .next-navbar {
     font-size: 19px;
 }
+
+/* .logo33 {
+    
+
+} */
+
+.hoverrbtn {
+    padding-top: 7px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    align-items: baseline;
+}
+/* 
 @media only screen and (max-width: 420px) {
-    .headerSection{
+    .headerSection {
         align-self: center;
+
+
+
+
+    }
+
+   
+
+    .navbar-brand {
+        padding-top: 0px;
+
+    }
+
+
+
+    #responsive-navbar-nav {
+        background-color: #240429;
+        height: 100vh;
+        width: 100%;
+
+        padding: 10px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        align-self: baseline;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+
+    .logo33 {
+        margin-top: 10px;
+        
+
+    }
+
+    /* .navbar-brand {
+
+    } */
+
+    /* .next-navbar {
+        text-align: start;
+       
+        width: 100%;
+       
+        padding: 10px;
         
         
+        
+        
+    } */
+/* 
+
+    #responsive-navbar-nav {
+        background-color: #240429;
+        height: 100vh;
+        padding: 30px;
+        width: 100%;
+        top: 0%;
     }
-    .logo{
-        height: 0px;
-            
+
+    .navbar-toggler {
+        background-color: #fff;
+        align-self: baseline;
     }
-    .navbar-brand{
+
+
+}  */
+
+/* Mobile screens (Up to 420px) */
+@media only screen and (max-width: 420px) {
+    .headerSection {
+        align-self: center;
+    }
+
+    .navbar-brand {
         padding-top: 0px;
     }
-    .next-navbar {
-        background-color: #240429;
-        width: 50%;
-        margin-left: 50%;
+
+    #responsive-navbar-nav {
         padding: 10px;
-        top: 0;
+        background-color: #240429;
+        height: 100vmax;
     }
-    
-    
-    
-  }
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+}
+
+/* Tablet screens (Up to 991px) */
+@media only screen and (max-width: 991px) {
+    .logo33 {
+        margin-top: 10px;
+    }
+
+    #responsive-navbar-nav {
+        padding: 30px;
+        background-color: #240429;
+        height: 100vmax;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar {
+        align-items: baseline;
+        padding: 0;
+    }
+}
+
+/* Small Laptops (Up to 1200px) */
+@media only screen and (max-width: 1200px) {
+    .navbar-brand img {
+        height: 28px;
+    }
+    .navbar {
+        align-items: baseline;
+        padding: 0;
+    }
+}
+
+/* Large Screens (Above 1200px) */
+@media only screen and (min-width: 1201px) {
+    /* .headerSection {
+        
+    } */
+    .navbar {
+        align-items: baseline;
+        padding: 0;
+    }
+}

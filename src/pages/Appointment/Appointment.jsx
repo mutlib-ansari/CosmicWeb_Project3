@@ -1,16 +1,63 @@
-import { Container, Breadcrumb, Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Breadcrumb, Form, Row, Col } from 'react-bootstrap';
 import "./appointment.css"
 
 function AppointmentForm() {
     return (
 
-        <div className='py-5'>
+        <div className=''>
 
 
-            <Breadcrumb className='Breadcrumb '>
+            {/* <Breadcrumb className='Breadcrumb bggg '>
                 <Breadcrumb.Item href="/" >Home</  Breadcrumb.Item>
                 <Breadcrumb.Item active>Appointment</Breadcrumb.Item>
-            </Breadcrumb>
+            </Breadcrumb> */}
+
+<div
+                className="breadcrumb-container"
+                style={{
+                    position: "relative",
+                    backgroundImage:
+                        "url('https://template-kit.evonicmedia.com/layout50/wp-content/uploads/2023/11/about-header-1.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    padding: "10%",
+                    textAlign: "center",
+                    color: "white",
+
+                }}
+            >
+                {/* Overlay */}
+                <div
+                    style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        backgroundColor: "rgba(0, 0, 0, 0.5)",
+                        zIndex: 1,
+                    }}
+                ></div>
+
+
+                <nav aria-label="breadcrumb" style={{ position: "relative", zIndex: 2 }}>
+                    <ol className="breadcrumb bg-transparent text-light text-center ">
+                        <li className="breadcrumb-item">
+                            <a href="/" className="text-light">
+                                Home
+                            </a>
+                        </li>
+                        {/* <li className="breadcrumb-item">
+                            <a href="/category" className="text-light">
+                                Category
+                            </a>
+                        </li> */}
+                        <li className="breadcrumb-item active text-light" aria-current="page">
+                        Appointment
+                        </li>
+                    </ol>
+                </nav>
+            </div>
 
 
 

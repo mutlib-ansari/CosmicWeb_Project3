@@ -27,7 +27,7 @@ function Products() {
                             </li>
                             <li className='products-text col-md-6'><p>Lorem ipsum dolor sit amet, consectetur Ui adipiscing elit, sed do eiusmod tempor.</p>
                                 {/* <Button className='Button'><IoIosStar /> Read more</Button> */}
-                                <div className='mt-4'>
+                                {/* <div className='mt-4'>
                                     <button className="c-button c-button--gooey"> <IoIosStar />Read more
                                         <div className="c-button__blobs">
                                             <div />
@@ -44,7 +44,7 @@ function Products() {
                                             </filter>
                                         </defs>
                                     </svg>
-                                </div>
+                                </div> */}
                             </li>
                         </ul>
 

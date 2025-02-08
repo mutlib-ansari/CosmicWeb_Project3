@@ -153,11 +153,27 @@ const VideoGalleryPage = () => {
 
 	return (
 		<div>
-			<div className='bggg'>
-			</div>
-			<div>
-				<h1 className='Aboutus1text'>Video Gallery Page</h1>
-			</div>
+			{/* <div className='bggg'>
+				<div>
+					<h1 className='Aboutus2text'>Video Gallery Page</h1>
+				</div>
+			</div> */}
+				<div className="breadcrumb-container">
+                {/* Overlay */}
+                <div className="breadcrumb-overlay"></div>
+
+                <nav aria-label="breadcrumb" className="breadcrumb-content">
+                    <ol className="breadcrumb bg-transparent text-light text-center">
+                        <li className="breadcrumb-item">
+                            <a href="/" className="text-light">Home</a>
+                        </li>
+                        <li className="breadcrumb-item active text-light" aria-current="page">
+                            Video gallery
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
 			<div className="container mt-4">
 				<h2 className="text-center Video-Gallery py-5">Video Gallery</h2>
 				<div className="row">
@@ -176,7 +192,7 @@ const VideoGalleryPage = () => {
 									allowFullScreen
 								/>
 							) : (
-								{/* For local video files */}
+								{/* For local video files */ }
 								// <video
 								// 	src={video.src}
 								// 	alt={video.alt}

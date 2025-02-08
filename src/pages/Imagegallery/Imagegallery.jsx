@@ -1058,6 +1058,7 @@ const PhotoGallery = () => {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true,
+                    arrows: false,
                 },
             },
         ],

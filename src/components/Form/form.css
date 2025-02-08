@@ -52,4 +52,11 @@
   .lefttext p {
     font-size: 20px;
   }
+  .formbt {
+    width: 100%;
+  
+  }
+  .formbg {
+    padding: 15px;
+  }
 }

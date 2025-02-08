@@ -16,8 +16,11 @@
 .elementor-text p  {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 15px;
     color: white;
+}
+.elementor2 {
+    align-items: center;
 }
 /* .bg  {
     background-color: #fd4380;
@@ -26,9 +29,6 @@
 .sizee {
     font-size: 30px;
    
-}
-.img-fluid {
-    
 }
 
 @media only screen and (max-width: 420px) {

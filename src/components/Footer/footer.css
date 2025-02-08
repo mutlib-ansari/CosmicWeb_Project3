@@ -127,126 +127,128 @@
         padding-bottom: 20px;
     }
   }  */
-  .dreams-tour-footer {
-    background-color: rgb(55, 17, 80);
-    color: #fff;
-    padding: 4rem 0;
-    margin-top: 70px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
-  
-  .dreams-tour-footer h2 {
-    color: #fff;
-    margin-bottom: 1.5rem;
-  }
-  
-  .dreams-tour-footer .lead {
-    color: #ddd;
-    margin-bottom: 2rem;
-  }
-  
-  .newsletter-section {
-    margin-top: 2rem;
-  }
-  
-  .newsletter-section h3 {
-    color: #fff;
-    margin-bottom: 1rem;
-  }
-  
-  .newsletter-section p {
-    color: #ddd;
-    margin-bottom: 1.5rem;
-  }
-  
-  .newsletter-section .form-control {
-    background-color: #444;
-    border: none;
-    color: #fff;
-  }
-  
-  .newsletter-section .btn-primary {
-    background-color: #007bff;
-    border: none;
-  }
-  
-  .dreams-tour-footer h4 {
-    color: #fff;
-    margin-bottom: 1.5rem;
-  }
-  
-  .dreams-tour-footer ul li {
-    color: #ddd;
-    margin-bottom: 0.75rem;
-  }
-  
-  .contact-section {
-    padding: 2rem 0;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-icon {
-    font-size: 2rem;
-    margin-right: 1rem;
-    color: #007bff;
-  }
-  
-  .contact-item p {
-    color: #ddd;
-    margin-bottom: 0.25rem;
-  }
-  
-  .contact-item h5 {
-    color: #fff;
-    margin-bottom: 0;
-  }
-  
-  .social-icons {
-    text-align: center;
-  }
-  
-  .social-icon {
-    font-size: 1.5rem;
-    /* margin: 0 1rem; */
-    color: #fff;
-    transition: color 0.3s;
-    margin: 0 15px;
-  }
-  
-  .social-icon:hover {
-    color: #007bff;
-  }
-  
-  .footer-bottom {
-    margin-top: 2rem;
-    padding-top: 2rem;
-    /* border-top: 1px solid #444; */
-  }
-  
-  .legal-links {
-    text-align: center;
-    margin-top: 1rem;
-  }
-  
-  .legal-links a {
-    color: #ddd;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
-  
-  .legal-links a:hover {
-    color: #fff;
-  }
-  .list-unstyled li:hover {
-color: #007bff;
-  }
-  .Dreams-text {
-    font-size: 30px;
-  }
+.dreams-tour-footer {
+  background-color: rgb(55, 17, 80);
+  color: #fff;
+  padding: 4rem 0;
+  margin-top: 70px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.dreams-tour-footer h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.dreams-tour-footer .lead {
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+
+.newsletter-section {
+  margin-top: 2rem;
+}
+
+.newsletter-section h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.newsletter-section p {
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-section .form-control {
+  background-color: #444;
+  border: none;
+  color: #fff;
+}
+
+.newsletter-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.dreams-tour-footer h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.dreams-tour-footer ul li {
+  color: #ddd;
+  margin-bottom: 0.75rem;
+}
+
+.contact-section {
+  padding: 2rem 0;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #007bff;
+}
+
+.contact-item p {
+  color: #ddd;
+  margin-bottom: 0.25rem;
+}
+
+.contact-item h5 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  /* margin: 0 1rem; */
+  color: #fff;
+  transition: color 0.3s;
+  margin: 0 15px;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  /* border-top: 1px solid #444; */
+}
+
+.legal-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.legal-links a {
+  color: #ddd;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  color: #fff;
+}
+
+.list-unstyled li:hover {
+  color: #007bff;
+}
+
+.Dreams-text {
+  font-size: 30px;
+}

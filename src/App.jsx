@@ -11,6 +11,8 @@ import PostDetails  from "./pages/BlogPage/PostDetails";
 import ImagegalleryPage from "./pages/Imagegallerypage/Imagegallerypage";
 import Videogallerypage from "./pages/Videogallerypage/Videogallerypage"
 import Singup from "./pages/Sing-up/Sing-up"
+import AstrologyConsultation from "./pages/AstrologyConsultation/Astrology-Consultation"
+import VastuConsultation from "./pages/VastuConsultation/Vastu-Consultation"
 // import Footer2 from "./components/Footer2/Footer2"
 
 function App() {
@@ -30,6 +32,9 @@ function App() {
           <Route path="/imagegallerypage" element={<ImagegalleryPage />}/>
           <Route path="/videogallerypage" element={<Videogallerypage />}/>
           <Route path="/sing-up" element={<Singup />}/>
+          <Route path="/astrology-consultation" element={<AstrologyConsultation />}/>
+          <Route path="/vastu-consultation" element={<VastuConsultation/>}/>
+          
           
           
     

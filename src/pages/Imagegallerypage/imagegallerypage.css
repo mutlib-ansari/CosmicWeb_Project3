@@ -50,6 +50,7 @@
   transform: scale(1.2);
   /* Zooms the image more when hovered inside the modal */
 }
+
 .modal-body {
   position: relative;
   display: flex;
@@ -62,7 +63,8 @@
   right: 10px;
 }
 
-.prev-btn, .next-btn {
+.prev-btn,
+.next-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -75,18 +77,35 @@
   transition: background 0.3s ease;
 }
 
-.prev-btn { left: 10px; }
-.next-btn { right: 10px; }
+.prev-btn {
+  left: 10px;
+}
 
-.prev-btn:hover, .next-btn:hover {
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
   background: rgba(255, 255, 255, 1);
 }
 
-/* Responsive Tweaks */
+.Aboutus2text {
+
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  color: white;
+
+}
+
 @media (max-width: 768px) {
-  .prev-btn, .next-btn {
-      font-size: 1.5rem;
-      padding: 8px 12px;
+
+  .prev-btn,
+  .next-btn {
+    font-size: 1.5rem;
+    padding: 8px 12px;
   }
 }
 

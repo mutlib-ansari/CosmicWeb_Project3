@@ -16,7 +16,7 @@ const Inerbanner = () => {
                     <h1>Welcome to Cosmic Energies</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nam eos debitis, sequi cupiditate repudiandae accusamus provident expedita omnis rem facere.</p>
                     <div className='inerbanner-batton'>
-                        <button className="c-button c-button--gooey"> Book now
+                        <button className="c-button c-button--gooey"> Submit
                             <div className="c-button__blobs">
                                 <div />
                                 <div />

@@ -49,23 +49,23 @@
     color: white;
 }
 
-.bookingtext {
+/* .bookingtext {
     padding: 70px 0px;
-}
+} */
 
 .bookingtext h1 {
     font-size: 50px;
     text-align: start;
     color: white;
     margin-bottom: 10px;
-    line-height: 60px;
+    
 }
 
 .bookingtext p {
     font-size: 20px;
     text-align: start;
     padding-top: 30px;
-    line-height: 30px;
+   
 }
 
 .imgee {
@@ -103,7 +103,7 @@
         height: 50px;
         
     } */
-  
+
 
     .bottom-img {
 
@@ -119,5 +119,12 @@
     .bookingtext p {
         font-size: 20px;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .testimonial2 {
+        width: 100%;
+        justify-self: center;
     }
 }

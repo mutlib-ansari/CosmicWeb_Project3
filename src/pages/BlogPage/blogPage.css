@@ -460,16 +460,19 @@
     padding: 20px;
     /* Adjust overall padding around the grid */
 }
+
 .bg6 {
     background: rgb(69, 48, 114);
 }
-.Aboutus2text {
+
+.Aboutus3text {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 45%;
     font-size: 40px;
     color: white;
 }
+
 /* Responsive Design */
 @media (max-width: 992px) {
     .blog-title6 {
@@ -490,15 +493,19 @@
         flex-direction: column;
         gap: 0.5rem;
     }
+
     .blog-image-wrapper {
         max-width: 100%;
-       }
+    }
 }
-@media only screen and (max-width: 420px) {
-   .blog-image-wrapper {
-    max-width: 100%;
-   }
-   .Aboutus2text {
 
-   } 
-  }
+@media only screen and (max-width: 420px) {
+    .blog-image-wrapper {
+        max-width: 100%;
+    }
+
+    .Aboutus3text {
+        top: 50%;
+        left: 60px;
+    }
+}       
