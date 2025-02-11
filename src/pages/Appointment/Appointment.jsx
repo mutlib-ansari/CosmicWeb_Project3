@@ -12,48 +12,17 @@ function AppointmentForm() {
                 <Breadcrumb.Item active>Appointment</Breadcrumb.Item>
             </Breadcrumb> */}
 
-<div
-                className="breadcrumb-container"
-                style={{
-                    position: "relative",
-                    backgroundImage:
-                        "url('https://template-kit.evonicmedia.com/layout50/wp-content/uploads/2023/11/about-header-1.jpg')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    padding: "10%",
-                    textAlign: "center",
-                    color: "white",
-
-                }}
-            >
+            <div className="breadcrumb-container">
                 {/* Overlay */}
-                <div
-                    style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "rgba(0, 0, 0, 0.5)",
-                        zIndex: 1,
-                    }}
-                ></div>
+                <div className="breadcrumb-overlay"></div>
 
-
-                <nav aria-label="breadcrumb" style={{ position: "relative", zIndex: 2 }}>
-                    <ol className="breadcrumb bg-transparent text-light text-center ">
+                <nav aria-label="breadcrumb" className="breadcrumb-content">
+                    <ol className="breadcrumb bg-transparent text-light text-center">
                         <li className="breadcrumb-item">
-                            <a href="/" className="text-light">
-                                Home
-                            </a>
+                            <a href="/" className="text-light">Home</a>
                         </li>
-                        {/* <li className="breadcrumb-item">
-                            <a href="/category" className="text-light">
-                                Category
-                            </a>
-                        </li> */}
                         <li className="breadcrumb-item active text-light" aria-current="page">
-                        Appointment
+                            Appointment
                         </li>
                     </ol>
                 </nav>
