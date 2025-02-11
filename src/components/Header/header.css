@@ -184,40 +184,50 @@
 
 
 }  */
+  .next-navbar {
+    height: 100vh;
+  }
 
-/* Mobile screens (Up to 420px) */
 @media only screen and (max-width: 420px) {
     .headerSection {
         align-self: center;
     }
-
     .navbar-brand {
         padding-top: 0px;
     }
-
     #responsive-navbar-nav {
         padding: 10px;
         background-color: #240429;
-        height: 100vmax;
     }
-
     .navbar-toggler {
         background-color: #fff;
+    
     }
+    .next-navbar {
+        height: 100vh;
+      }
+    
+    
+
 }
 
-/* Tablet screens (Up to 991px) */
 @media only screen and (max-width: 991px) {
+    
+    
     .logo33 {
         margin-top: 10px;
     }
-
+    .headerSection {
+        height: 100vh;
+    }
     #responsive-navbar-nav {
         padding: 30px;
         background-color: #240429;
-        height: 100vmax;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+       
     }
-
     .navbar-toggler {
         background-color: #fff;
     }
@@ -227,7 +237,6 @@
     }
 }
 
-/* Small Laptops (Up to 1200px) */
 @media only screen and (max-width: 1200px) {
     .navbar-brand img {
         height: 28px;
@@ -238,11 +247,7 @@
     }
 }
 
-/* Large Screens (Above 1200px) */
 @media only screen and (min-width: 1201px) {
-    /* .headerSection {
-        
-    } */
     .navbar {
         align-items: baseline;
         padding: 0;
