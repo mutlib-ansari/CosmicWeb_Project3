@@ -2384,7 +2384,7 @@ react-icons@^5.4.0:
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-5.4.0.tgz"
   integrity sha512-7eltJxgVt7X64oHh6wSWNwwbKTCtMfK35hcjvJS0yxEAhPM8oUKdS3+kqaW1vicIltw+kR2unHaa12S9pPALoQ==
 
-react-image-@^3.1.0:
+react-image@^3.1.0:
   version "3.5.0"
   resolved "https://registry.npmjs.org/react-image-/-/react-image--3.5.0.tgz"
   integrity sha512-jbS/azO/60mmeI1ThGJq3Dvt6fpdAZ8TenmJO9N7bSLa3Ce1IfbonlgsAmKrI+u9mmt4tDQG50cnK93KMFI6Jg==
@@ -2403,7 +2403,7 @@ react-justified-gallery@^0.0.6:
   integrity sha512-lfoXG0t+iITqKrMVwFx6l4OpSc6kzmUjuoA7M+htXZUCznAxsa2QLnmoKXfXod+AsHzypfdu/82Vz9xXQDpXcw==
   dependencies:
     lodash "^4.16.1"
-    react-image- "^3.1.0"
+    react-image"^3.1.0"
     react-layout-justified "0.0.3"
 
 react-layout-justified@0.0.3:
