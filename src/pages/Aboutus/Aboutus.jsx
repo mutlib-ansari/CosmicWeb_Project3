@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Aboutus.css"
-import { Container, Breadcrumb, } from 'react-bootstrap'
+// import { Container, Breadcrumb, } from 'react-bootstrap'
 import Dasbord from "../../components/Dasbord/Dasbord";
 import Form from "../../components/Form/Form"
 import Testimonials from "../../components/Testimonials/testimonials";
@@ -23,7 +23,7 @@ function Aboutus() {
                 <Breadcrumb.Item href="/" >Home</  Breadcrumb.Item>
                 <Breadcrumb.Item active>About us</Breadcrumb.Item>
             </Breadcrumb> */}
-            <div
+            {/* <div
                 className="breadcrumb-container"
                 style={{
                     position: "relative",
@@ -37,7 +37,7 @@ function Aboutus() {
                     
                 }}
             >
-                {/* Overlay */}
+                
                 <div
                     style={{
                         position: "absolute",
@@ -63,12 +63,29 @@ function Aboutus() {
                                 Category
                             </a>
                         </li> */}
+            {/* <li className="breadcrumb-item active text-light" aria-current="page">
+                            About Us
+                        </li>
+                    </ol>
+                </nav>
+            </div> */}
+
+            <div className="breadcrumb-container">
+                {/* Overlay */}
+                <div className="breadcrumb-overlay"></div>
+
+                <nav aria-label="breadcrumb" className="breadcrumb-content">
+                    <ol className="breadcrumb bg-transparent text-light text-center" style={{ fontSize: "30px" }}>
+                        <li className="breadcrumb-item">
+                            <a href="/" className="text-light">Home</a>
+                        </li>
                         <li className="breadcrumb-item active text-light" aria-current="page">
                             About Us
                         </li>
                     </ol>
                 </nav>
             </div>
+
             <div>
                 <Dasbord />
                 <AdvantagesSection />

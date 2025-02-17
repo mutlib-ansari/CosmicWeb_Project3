@@ -1,62 +1,117 @@
-.lefttext span {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-    color: #c36;
+/* .lefttext span {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #c36;
 
 
 }
 
 .lefttext h2 {
-    font-size: 50px;
-    font-weight: 700;
-    margin-top: 20px;
-    color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: white;
 }
 
 .lefttext p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 30px;
-    color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: white;
 }
+
 .form-control {
-    border-radius: 0%;
-    padding: 15px;
-    background: transparent;
-    
+  border-radius: 0%;
+  padding: 15px;
+  background: transparent;
+
 }
+
 .formbg {
 
-    /* background-color: #240429; */
-    background-color: rgb(20, 10, 44);
-    padding: 50px;
+
+  background-color: rgb(20, 10, 44);
+  padding: 50px;
 }
 
 
 @media only screen and (max-width: 420px) {
-    .form-list {
-        display: block;
-        
-    }
-   .lefttext {
+  .form-list {
+    display: block;
+
+  }
+
+  .lefttext {
     text-align: center;
     padding-bottom: 30px;
-   }
-   .lefttext span {
+  }
+
+  .lefttext span {
     font-size: 15px;
   }
+
   .lefttext h2 {
     font-size: 35px;
   }
+
   .lefttext p {
     font-size: 20px;
   }
+
   .formbt {
     width: 100%;
-  
+
   }
+
   .formbg {
     padding: 15px;
+
   }
+} */
+
+.form-border {
+  /* border: 1px dotted white  ; */
+  padding: 40px;
+  background-color: #150f3d;
 }
+.form-control {
+  background-color: blue;
+  border: none;
+  border-radius: 0%;
+  color: blanchedalmond;
+}
+.form-control {
+  font-family: var(--e-global-typography-b2ce6af-font-family, sans-serif);
+  font-size: var(--e-global-typography-b2ce6af-font-size);
+  font-weight: var(--e-global-typography-b2ce6af-font-weight);
+  text-transform: var(--e-global-typography-b2ce6af-text-transform);
+  font-style: var(--e-global-typography-b2ce6af-font-style);
+  line-height: var(--e-global-typography-b2ce6af-line-height);
+  color: white;
+  background-color:#201a46;
+  border: 1px solid var(--e-global-color-cfa1f76);
+  border-radius: 0;
+}
+.sizeee {
+  width: -webkit-fill-available;
+}
+.formbt3 {
+  width: 100%;
+}
+.form-icon  {
+  color: #cc9e75;
+}
+.form-icon svg {
+  width: 40px;
+  height: 40px;
+}
+.form-icon-text {
+  color: #cc9e75;
+  font-size: 20px;
+}
+.form-top-text {
+  color: #cc9e75;
+  font-size: 40px;
+}
+

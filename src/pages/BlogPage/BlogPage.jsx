@@ -452,7 +452,7 @@
 //     );
 // }
 
-import { Container, Breadcrumb, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './blogPage.css';
@@ -463,42 +463,42 @@ export default function BlogSlider() {
         {
             id: 1,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-01.jpg',
             // category: 'Travel Tips',
             date: '10 Oct 2025',
         },
         {
             id: 2,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-13-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-03.jpg',
             // category: 'Tech',
             date: '12 Oct 2025',
         },
         {
             id: 3,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-06.jpg',
             // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 4,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-05.jpg',
             // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 5,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-07.jpg',
             // category: 'Travel',
             date: '15 Oct 2025',
         },
         {
             id: 6,
             title: 'Astrology is one of the earliest attempts made.',
-            image: 'https://cosmicenergiies.com/wp-content/uploads/2022/02/astro-vastu-consultant-jaipur-rajasthan-gurugram-gurgaon-shradha-sharma-8058000040-9-768x768.jpg',
+            image: 'https://dreamstour.dreamstechnologies.com/html/assets/img/blog/blog-02.jpg',
             // category: 'Travel',
             date: '15 Oct 2025',
         },
@@ -519,7 +519,7 @@ export default function BlogSlider() {
                 <div className="breadcrumb-overlay"></div>
 
                 <nav aria-label="breadcrumb" className="breadcrumb-content">
-                    <ol className="breadcrumb bg-transparent text-light text-center">
+                    <ol className="breadcrumb bg-transparent text-light text-center" style={{ fontSize: "30px" }}>
                         <li className="breadcrumb-item">
                             <a href="/" className="text-light">Home</a>
                         </li>

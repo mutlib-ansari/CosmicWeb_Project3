@@ -1065,7 +1065,7 @@ const PhotoGallery = () => {
     };
 
     return (
-        <div className="container" data-aos="fade-up"
+        <div className="container p-5" data-aos="fade-up"
         data-aos-anchor-placement="center-center">
             <div className="imagetext">
                 <h1>IMAGE GALLERY</h1>

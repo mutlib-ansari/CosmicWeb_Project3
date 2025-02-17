@@ -5,7 +5,7 @@ import './advantagesSection.css';
 const AdvantagesSection = () => {
     return (
         <section className="advantages-section py-5" style={{
-            backgroundImage: " url('https://template-kit.evonicmedia.com/layout50/wp-content/uploads/2023/11/advantages-bg.jpg')",
+            backgroundImage: "linear-gradient(rgb(15 11 62 / 50%), rgb(16 6 38)),  url('https://template-kit.evonicmedia.com/layout50/wp-content/uploads/2023/11/advantages-bg.jpg')",
             backgroundPosition: 'center center',
             backgroundAttachment: 'fixed',
             width: '100%' }}>

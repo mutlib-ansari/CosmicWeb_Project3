@@ -184,9 +184,7 @@
 
 
 }  */
-  .next-navbar {
-    height: 100vh;
-  }
+ 
 
 @media only screen and (max-width: 420px) {
     .headerSection {
@@ -203,9 +201,9 @@
         background-color: #fff;
     
     }
-    .next-navbar {
+    /* .next-navbar {
         height: 100vh;
-      }
+      } */
     
     
 

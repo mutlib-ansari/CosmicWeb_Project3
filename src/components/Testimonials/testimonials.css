@@ -6,15 +6,24 @@
 .testimonial-content {
 
     justify-items: center;
+    /* border: 1px solid; */
+    padding: 25px;
+    height: 263px;
+    background-color: #201a46;
+}
+.testimonial-slide {
+    padding: 10px;
 }
 
 .testimonial-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 
     color: white;
+    background-position: bottom;
 
 }
+
 
 .images {
     text-align: center;
@@ -23,13 +32,15 @@
 
 .testimonial-image {
     border-radius: 100%;
+    margin-top: 22px;
+    width: 15%;
 }
 
 .testimonial-top span {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
-    color: #c36;
+    color: white;
 
 
 }
@@ -38,15 +49,16 @@
     font-size: 50px;
     font-weight: 700;
     margin-top: 20px;
-    color: white;
+    color: #cc9e75;
     padding-bottom: 50px;
 }
 
 .testimonial-author {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 30px;
     color: white;
+    padding: 5px;
 }
 
 /* .bookingtext {
@@ -72,6 +84,12 @@
     width: 100%;
     padding-top: 40%;
 }
+.testimonial-footer {
+    display: flex;
+    margin-top: 20px;
+}
+
+
 
 @media only screen and (max-width: 420px) {
     .testimonial-text {
@@ -122,9 +140,9 @@
     }
 }
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
     .testimonial2 {
         width: 100%;
         justify-self: center;
     }
-}
+} */

@@ -4,7 +4,9 @@
   
   
   .home {
-    background-color:  rgb(16, 7, 36);
+    /* background-color:  rgb(16, 7, 36);background-color:  rgb(16, 7, 36); */
+    /* background-color: linear-gradient(rgba(15, 11, 62, 0.85), rgb(16, 6, 38)),; */
+    background-color: #150F3D;
   }
 
 

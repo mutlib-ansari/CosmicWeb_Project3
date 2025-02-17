@@ -268,8 +268,9 @@
 .blog-content {
     padding: 1.5rem;
     position: absolute;
-    top: 50%;
+    top: 66%;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .blog-category {

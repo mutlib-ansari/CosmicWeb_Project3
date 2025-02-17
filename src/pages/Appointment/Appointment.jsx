@@ -1,4 +1,4 @@
-import { Container, Breadcrumb, Form, Row, Col } from 'react-bootstrap';
+import { Container, Form, Row, Col } from 'react-bootstrap';
 import "./appointment.css"
 
 function AppointmentForm() {
@@ -17,7 +17,7 @@ function AppointmentForm() {
                 <div className="breadcrumb-overlay"></div>
 
                 <nav aria-label="breadcrumb" className="breadcrumb-content">
-                    <ol className="breadcrumb bg-transparent text-light text-center">
+                    <ol className="breadcrumb bg-transparent text-light text-center" style={{ fontSize: "27px" }}>
                         <li className="breadcrumb-item">
                             <a href="/" className="text-light">Home</a>
                         </li>

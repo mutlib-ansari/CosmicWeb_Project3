@@ -163,7 +163,7 @@ const VideoGalleryPage = () => {
                 <div className="breadcrumb-overlay"></div>
 
                 <nav aria-label="breadcrumb" className="breadcrumb-content">
-                    <ol className="breadcrumb bg-transparent text-light text-center">
+                    <ol className="breadcrumb bg-transparent text-light text-center" style={{ fontSize: "27px" }}>
                         <li className="breadcrumb-item">
                             <a href="/" className="text-light">Home</a>
                         </li>
@@ -174,7 +174,7 @@ const VideoGalleryPage = () => {
                 </nav>
             </div>
 
-			<div className="container mt-4">
+			<div className="container mt-4" style={{ paddingBottom: "80px" }} >
 				<h2 className="text-center Video-Gallery py-5">Video Gallery</h2>
 				<div className="row">
 					{videos.map((video, index) => (

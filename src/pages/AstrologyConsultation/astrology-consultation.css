@@ -6,3 +6,87 @@ padding-bottom: 20px;
 .astrologyRight p {
     font-size: 17px;
 }
+/* 
+.horoscope-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+  }
+  
+  .horoscope-card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .horoscope-icon {
+    font-size: 40px;
+  }
+  
+  body {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    color: white;
+  } */
+  
+
+  .horoscope-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    height: 100%;
+  }
+  
+  .horoscope-card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .horoscope-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  .text-muted {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .text-muted2 {
+    font-size: 30px;
+
+  }
+  body {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    color: white;
+  }
+  
+  .modal-content-custom {
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.modal-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.text-muted2 {
+    color: #ffaf7b;
+}

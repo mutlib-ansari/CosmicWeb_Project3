@@ -6,15 +6,7 @@ import sliderImg3 from "../../assets/images/slider/img3.jpg";
 // import Button from 'react-bootstrap/Button';
 // import { IoIosStar } from "react-icons/io";
 import './mainslider.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
-AOS.init({
-    duration: 1000, // Animation duration
-    offset: 200, // Offset (in pixels) from the original trigger point
-    once: true, // Whether animation should happen only once
-    
-});
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
@@ -108,3 +100,4 @@ function ControlledCarousel() {
 }
 
 export default ControlledCarousel;
+

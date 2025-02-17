@@ -188,11 +188,26 @@ export default function BlogDetails() {
 
   return (
     <section className="blog-details">
-      <div className='bggg'>
+      {/* <div className='bggg'>
       </div>
       <div >
         <h1 className='Aboutus1text'>Post details</h1>
-      </div>
+      </div> */}
+       <div className="breadcrumb-container">
+                {/* Overlay */}
+                <div className="breadcrumb-overlay"></div>
+
+                <nav aria-label="breadcrumb" className="breadcrumb-content">
+                    <ol className="breadcrumb bg-transparent text-light text-center" style={{ fontSize: "30px" }}>
+                        <li className="breadcrumb-item">
+                            <a href="/" className="text-light">Home</a>
+                        </li>
+                        <li className="breadcrumb-item active text-light" aria-current="page">
+                            Post Details
+                        </li>
+                    </ol>
+                </nav>
+            </div>
       <Container className='py-5'>
         <Row>
           {/* Main Content */}
@@ -258,7 +273,7 @@ export default function BlogDetails() {
               </Card.Body>
             </Card>
 
-            <Card className="sidebar-card6 mt-4">
+            {/* <Card className="sidebar-card6 mt-4">
               <Card.Body>
                 <h4>Categories</h4>
                 <ul className="category-list6">
@@ -268,7 +283,7 @@ export default function BlogDetails() {
                   <li>Tech</li>
                 </ul>
               </Card.Body>
-            </Card>
+            </Card> */}
 
             {/* <Card className="sidebar-card6 mt-4">
               <Card.Body>
@@ -285,61 +300,61 @@ export default function BlogDetails() {
 
             <div className="card p-3 shadow-sm border-0" style={{ maxWidth: "400px" }}>
               <h5 className="mb-3 fw-bold text-primary">Related Posts</h5>
-              
-                <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
-                  <img
-                    src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
-                    alt=""
-                    className="rounded me-3"
-                    style={{ width: "60px", height: "60px", objectFit: "cover" }}
-                  />
-                  <div>
-                    <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
-                    How to Travel on a Budget: Affordable Destinations &...
-                    </h6>
-                    <small className="text-muted text-black">
-                      auther . 14 May 2025
-                     
-                    </small>
-                  </div>
-                </div>
 
-                <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
-                  <img
-                    src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
-                    alt=""
-                    className="rounded me-3"
-                    style={{ width: "60px", height: "60px", objectFit: "cover" }}
-                  />
-                  <div>
-                    <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
+              <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
+                <img
+                  src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
+                  alt=""
+                  className="rounded me-3"
+                  style={{ width: "60px", height: "60px", objectFit: "cover" }}
+                />
+                <div>
+                  <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
                     How to Travel on a Budget: Affordable Destinations &...
-                    </h6>
-                    <small className="text-muted text-black">
-                      auther . 14 May 2025
-                     
-                    </small>
-                  </div>
-                </div>
+                  </h6>
+                  <small className="text-muted text-black">
+                    auther . 14 May 2025
 
-                <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
-                  <img
-                    src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
-                    alt=""
-                    className="rounded me-3"
-                    style={{ width: "60px", height: "60px", objectFit: "cover" }}
-                  />
-                  <div>
-                    <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
-                    How to Travel on a Budget: Affordable Destinations &...
-                    </h6>
-                    <small className="text-muted text-black">
-                      auther . 14 May 2025
-                     
-                    </small>
-                  </div>
+                  </small>
                 </div>
-              
+              </div>
+
+              <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
+                <img
+                  src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
+                  alt=""
+                  className="rounded me-3"
+                  style={{ width: "60px", height: "60px", objectFit: "cover" }}
+                />
+                <div>
+                  <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
+                    How to Travel on a Budget: Affordable Destinations &...
+                  </h6>
+                  <small className="text-muted text-black">
+                    auther . 14 May 2025
+
+                  </small>
+                </div>
+              </div>
+
+              <div className="d-flex align-items-center mb-3 p-2 rounded bg6">
+                <img
+                  src="https://cosmicenergiies.com/wp-content/uploads/2022/02/cosmic-wellness-shradha-sharma-vastu-Course_jaipur-768x768.jpg"
+                  alt=""
+                  className="rounded me-3"
+                  style={{ width: "60px", height: "60px", objectFit: "cover" }}
+                />
+                <div>
+                  <h6 className="mb-1 fw-semibold text-white" style={{ fontSize: "14px" }}>
+                    How to Travel on a Budget: Affordable Destinations &...
+                  </h6>
+                  <small className="text-muted text-black">
+                    auther . 14 May 2025
+
+                  </small>
+                </div>
+              </div>
+
             </div>
 
           </Col>

@@ -1,38 +1,44 @@
 import React from "react";
-import { Container, Row, Col, Form as BootstrapForm } from "react-bootstrap";
 import "./home.css";
 import Mainslider from "../../components/Mainslider/Mainslider";
 import Dasbord from "../../components/Dasbord/Dasbord";
 import Ourservices from "../Ourservices/Ourservices";
 import Products from "../Products/Products";
-import Elemantorbox from "../Elementorbox/Elemantorbox";
-import Form from "../../components/Form/Form"
-import Testimonials from "../../components/Testimonials/testimonials";
+// import Elemantorbox from "../Elementorbox/Elemantorbox";
+
 import Imagegallery from "../Imagegallery/Imagegallery";
-import Videogallery from "../Videogallery/Videogallery";
-import Inerbanner from "../Inerbanner/Inerbanner";
+// import Videogallery from "../Videogallery/Videogallery";
+// import Inerbanner from "../Inerbanner/Inerbanner";
 import AdvantagesSection from "../AdvantagesSection/AdvantagesSection";
-// import PostDetails  from "../BlogPage/PostDetails";
-// import Singup from "../Sing-up/Sing-up"
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// import Herosection from "../../components/Herosection/Herosection";
+
+AOS.init({
+    duration: 1000, // Animation duration
+    offset: 200, // Offset (in pixels) from the original trigger point
+    once: true, // Whether animation should happen only once
+    
+});
 
 const Home = () => {
 
   return (
     <><div className="home">
       <Mainslider />
+      {/* <Herosection /> */}
       <Dasbord />
       <Ourservices />
       <Products />
-      <Inerbanner/>
+      {/* <Inerbanner/> */}
       <AdvantagesSection />
-      <Elemantorbox/>
+      {/* <Elemantorbox/> */}
       <Imagegallery />
-      <Videogallery />
-      <Form />
-      <Testimonials />
-      {/* <PostDetails /> */}
-      {/* <Router><Routes><Route path="/sing-up" element={<Singup />}/></Routes></Router> */}
+      {/* <Videogallery /> */}
+      
+      
+     
       
       </div>
     </>

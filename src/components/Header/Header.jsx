@@ -370,7 +370,7 @@ const Header = () => {
                                     </ul>
                                 </Nav.Link>
                                 <div className="hoverrbtn">
-                                    <a href="/sign-up">
+                                    <a href="/sing-up">
                                         <button className="c-button c-button2 c-button--gooey">
                                             Sign/Login
                                             <div className="c-button__blobs">
